@@ -1,6 +1,6 @@
 {
   "name": "plugin-pagenotfound",
-  "version": "2025.3.1",
+  "version": "2025.3.0",
   "type": "module",
   "exports": "./lib/index.js",
   "publishConfig": {
