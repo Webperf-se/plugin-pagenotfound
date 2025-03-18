@@ -54,7 +54,10 @@ def main(argv):
             print(main.__doc__)
             sys.exit(0)
         elif opt in ("-l", "--last"):
-            last_version = packaging.version.Version(arg)
+            try:
+              last_version = packaging.version.Version(arg)
+            except packaging.version.InvalidVersion:
+              last_version = packaging.version.Version('1.0.0')
             new_version= get_new_version(last_version)
 
             current_version = None
