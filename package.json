@@ -47,7 +47,7 @@
     "prettier": "3.5.3"
   },
   "dependencies": {
-    "webperf-sitespeedio-plugin": "2025.3.1",
+    "webperf-sitespeedio-plugin": "2025.3.3",
     "@sitespeed.io/log": "0.2.6",
     "@sitespeed.io/plugin": "1.0.0"
   },
