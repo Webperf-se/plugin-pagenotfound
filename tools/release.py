@@ -81,7 +81,11 @@ def main(argv):
                 myfile.write(f"NEW_VERSION={new_version}")
 
         elif opt in ("-u", "--update"):
-            last_version = packaging.version.Version(arg)
+            try:
+              last_version = packaging.version.Version(arg)
+            except packaging.version.InvalidVersion:
+              last_version = packaging.version.Version('1.0.0')
+               
             package_info = None
 
             base_directory = Path(os.path.dirname(
