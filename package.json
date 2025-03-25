@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "jsdom": "26.0.0",
-    "plugin-webperf-core": "2025.3.6",
+    "plugin-webperf-core": "2025.3.7",
     "@sitespeed.io/log": "0.2.6",
     "@sitespeed.io/plugin": "1.0.0"
   },
