@@ -49,7 +49,9 @@
   },
   "scripts": {
     "start-server": "serve test/data/",
-    "stop-server": "sudo pkill serve"
+    "stop-server": "sudo pkill serve",
+    "lint": "eslint .", 
+    "lint:fix": "eslint . --fix"
   },
   "main": "./lib/index.js"
 }
