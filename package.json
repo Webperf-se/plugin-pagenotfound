@@ -1,6 +1,6 @@
 {
   "name": "plugin-pagenotfound",
-  "version": "2025.6.0",
+  "version": "2025.6.1",
   "type": "module",
   "exports": "./lib/index.js",
   "publishConfig": {
@@ -50,7 +50,7 @@
   "scripts": {
     "start-server": "serve test/data/",
     "stop-server": "sudo pkill serve",
-    "lint": "eslint .", 
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "main": "./lib/index.js"
