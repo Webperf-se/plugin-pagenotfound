@@ -1,5 +1,5 @@
 {
-    "valid-not-found-texts":[
+    "valid-not-found-texts": [
         "missing",
         "doesn't exist",
         "does not exist",
@@ -26,7 +26,6 @@
         "no page",
         "removed",
         "moved",
-        "no results",
         "not available",
         "not the page",
         "check the address",
@@ -39,18 +38,11 @@
         "can not be reached",
         "old page",
         "ops",
-        "doesn't exist",
-        "does not exist",
-        "doesn't exist",
-        "does not exist",
         "rebuilt",
-        "doesn't exist",
-        "does not exist",
         "doesn't work",
         "does not work",
         "sorry",
         "a problem has been encountered",
-        "an issue has been encountered",
-        "went wrong"
+        "an issue has been encountered"
     ]
 }

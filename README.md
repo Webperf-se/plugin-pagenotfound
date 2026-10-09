@@ -11,6 +11,7 @@ The `plugin-pagenotfound` is a plugin for [sitespeed.io](https://www.sitespeed.i
 - Logs status codes of requested webpages.
 - Handles redirects and logs the final status code.
 - Rates the response based on status code, title, header, and language text.
+- Checks the page's text against phrases a "page not found" page is expected to contain, in the language of the page's `lang` attribute. Phrase lists live in `locale/<lang>.json`; supported today: Danish, English, Finnish, French, German, Icelandic, Italian, Norwegian (bokmål and nynorsk, `nb` and `nn` map to `no`), Spanish and Swedish. A page in another language gets `no-unsupported-locale-use` and is checked against every list. A page without `lang` is checked against every list. To add a language, add a `locale/<code>.json` with a `valid-not-found-texts` array of lowercase phrases and a case in `test/unit/`.
 - Integrates seamlessly with sitespeed.io.
 
 ## Installation

@@ -1,5 +1,5 @@
 {
-    "valid-not-found-texts":[
+    "valid-not-found-texts": [
         "saknas",
         "finns inte",
         "inga resultat",
@@ -15,12 +15,10 @@
         "tagits bort",
         "fel adress",
         "trasig",
-        "inte hitta",
         "ej hitta",
         "ingen sida",
         "borttagen",
         "flyttad",
-        "inga resultat",
         "inte tillgänglig",
         "inte sidan",
         "kontrollera adressen",
@@ -30,13 +28,11 @@
         "kan inte nås",
         "gammal sida",
         "hoppsan",
-        "finns inte",
         "finns ej",
         "byggt om",
         "inte finns",
         "inte fungera",
         "ursäkta",
-        "uppstått ett fel",
-        "gick fel"
+        "uppstått ett fel"
     ]
 }
