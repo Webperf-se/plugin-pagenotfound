@@ -1,0 +1,33 @@
+{
+    "valid-not-found-texts": [
+        "non trovata",
+        "non trovato",
+        "non è stata trovata",
+        "non è stato trovato",
+        "impossibile trovare",
+        "errore 404",
+        "error 404",
+        "non esiste",
+        "non disponibile",
+        "non è disponibile",
+        "non più disponibile",
+        "è stata rimossa",
+        "è stata spostata",
+        "rimossa o spostata",
+        "cambiato indirizzo",
+        "indirizzo errato",
+        "indirizzo non corretto",
+        "controlla l'indirizzo",
+        "verifica l'indirizzo",
+        "digitato male",
+        "andato storto",
+        "verificato un errore",
+        "ci dispiace",
+        "siamo spiacenti",
+        "spiacenti",
+        "oops",
+        "pagina richiesta",
+        "pagina che cerchi",
+        "pagina che stai cercando"
+    ]
+}
